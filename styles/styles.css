@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 :root {
@@ -20,6 +19,7 @@
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
 }
+
 
 .light-mode {
     --color-primary: #FFFFFF;
@@ -160,7 +160,7 @@ section {
 
 .header-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 25% 75%;
     min-height: 100vh;
 }
 
@@ -321,7 +321,7 @@ section {
 
 .about-stats .progress-bars .progress-bar .progress-con {
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .prog-text {
@@ -802,7 +802,7 @@ section {
         height: 50px;
     }
     .header-content {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 25% 75%;
         padding-bottom: 6rem;
     }
     .left-header .h-shape {
@@ -984,7 +984,7 @@ section {
         padding-right: 0rem;
     }
     .header-content {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 25% 75%;
         padding-bottom: 6rem;
     }
     .left-header .h-shape {
